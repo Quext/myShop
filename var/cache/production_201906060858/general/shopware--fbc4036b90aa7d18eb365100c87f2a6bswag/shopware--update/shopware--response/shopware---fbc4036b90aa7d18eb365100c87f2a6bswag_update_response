@@ -1,0 +1,429 @@
+O:52:"ShopwarePlugins\SwagUpdate\Components\Struct\Version":9:{s:7:"version";s:6:"5.5.10";s:7:"isNewer";b:0;s:9:"changelog";a:2:{s:2:"de";a:5:{s:2:"id";s:3:"224";s:9:"releaseId";N;s:8:"language";s:2:"de";s:9:"changelog";s:8952:"<style type="text/css">
+	.swag-update-changelog a { color: #089eff; }
+	.release-information {
+		position: relative;
+		margin:20px;
+		font-family:'Open Sans', Arial, sans-serif;
+		color: #5C6F7C;
+		font-size:14px;
+	}
+
+	.release-information p {
+		line-height: 20px;
+		margin-bottom:20px;
+	}
+
+	.release-information h1,
+	.release-information h2,
+	.release-information h3,
+	.release-information h4,
+	.release-information h5,
+	.release-information h6 {
+		font-size: 20px;
+		color: #0E384F;
+		font-weight: 600;
+		padding-bottom: 10px;
+		margin-top: 20px;
+		border-bottom: 1px solid #ccd6cd;
+	}
+
+	.release-information h2 {
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+	.release-information h3 {
+		border-bottom: none;
+		color: #089eff;
+		padding-bottom: 30px;
+	}
+
+	.release-information h4 {
+		font-size: 16px;
+		border: none;
+		margin: 0;
+		padding-bottom: 6px;
+	}
+
+	.release-information h2.hero-headline {
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 20px;
+		border-bottom: 0 none;
+		color: #142432;
+	}
+	.release-information h2.hero-headline:after {
+		display: block;
+		content: '';
+		width: 60px;
+		height: 4px;
+		margin: 0 auto;
+		text-align: center;
+		background: #189eff;
+		margin-top: 7px;
+	}
+
+	.release-information h3.sub-headline {
+		color: #142432;
+		font-weight: bold;
+	}
+
+	.release-information h3.sub-headline:after {
+		display: block;
+		content: '';
+		width: 40px;
+		height: 4px;
+		background: #189eff;
+		margin-top: 5px;
+	}
+
+	span.release-update-icon {
+		background: url('data:image/png;base64,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') no-repeat;
+		width: 52px;
+		height: 52px;
+		right: 20px;
+		top: 15px;
+		position: absolute;
+	}
+
+
+	.release-feature-more-info a{
+		color: #089EFF;
+		font-size: 16px;
+	}
+
+
+	.release-feature-entry p {
+		line-height: 20px;
+	}
+
+
+	/*** Github Buttons ***/
+	.release-github-buttons {
+		border-top: 1px solid #ccd6cd;
+		margin-bottom: 40px;
+		width: 100%;
+		float: left;
+	}
+
+	.release-github-buttons-inner {
+		padding-top: 30px;
+	}
+
+	.release-github-buttons a {
+		background: #189eff;
+		border-radius: 4px;
+		border: none;
+		font-weight: bold;
+		color: #fff;
+		text-decoration: none;
+		margin-right: 10px;
+		padding: 10px 25px;
+		text-align: center;
+		font-size: 14px;
+	}
+	.release-github-buttons span {
+		text-align: center;
+	}
+
+	.release-github-buttons a:hover {
+		background: rgb(0,186,241);
+	}
+
+	.release-github-buttons a.last {
+		margin-right: 0;
+	}
+
+	.alert {
+		padding: 10px 20px;
+		margin-bottom: 20px;
+		border: 2px solid rgba(0, 0, 0, 0);
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		line-height: 26px;
+	}
+
+	.alert-info {
+		background: rgba(225, 244, 252, 1);
+		color: rgba(0, 120, 185, 1);
+		border: 1px solid rgba(141, 215, 247, 1);
+		position: relative;
+		padding-right: 80px;
+	}
+
+	.alert-warning, .alert-error {
+		color: #825900;
+		border-color: rgba(255, 183, 28, 0.4);
+		background: rgba(255, 183, 28, 0.2);
+		position: relative;
+		padding-right: 80px;
+	}
+
+	ul li {
+		list-style: disc;
+		margin-left: 20px;
+		padding-bottom: 10px;
+	}
+
+</style>
+
+<!-- Title -->
+<div class="release-information">
+
+	<h2 class="hero-headline">Shopware Version 5.5.10 </h2>
+
+	<div class="alert alert-info">
+		<span class="release-update-icon"></span>
+		<p style="font-weight: 700;">Wichtige Updateinformationen</p>
+		<p>Sollten Sie beim Update Versionen überspringen, beachten Sie bitte alle <a href="http://community.shopware.com/Downloads_cat_448.html" target="_blank">Updateinformationen</a> zwischen Ihrer momentanen Version und der Version auf die Sie updaten wollen.</p>
+		<p style="margin-bottom: 20px">Dieses Update-Paket ist kumulativ und beinhaltet Fehler-Korrekturen und neue Features.</p>
+	</div>
+
+	
+
+	<h3 class="sub-headline">Wichtige Anpassungen</h3>
+	
+
+	<h3 class="sub-headline">Changelog</h3>
+	<div style="margin-top: -30px;">
+                    
+<p>
+    <br/><strong><a href="https://issues.shopware.com/issues/SW-24134" target="_blank">SW-24134</a> - </strong>Unterstützung für Parametertypen 'int' und 'array' in '\Shopware\Bundle\StoreFrontBundle\Gateway\DBAL\CategoryGateway::get' hinzugefügt
+    <br/><strong><a href="https://issues.shopware.com/issues/SW-24135" target="_blank">SW-24135</a> - </strong>Fügt Unterstützung für mittels 'open_basedir' eingeschränkter Umgebungen hinzu
+</p>
+                 
+                </div>
+
+	<h3 class="sub-headline">Entwickler-Infos</h3>
+	<h4>Upgrade.md</h4>
+	<p style="margin-bottom: 20px">
+		Alle Änderungen, die die Code-Basis von Shopware betreffen, werden zentral in der Datei <a href="https://github.com/shopware/shopware/blob/5.5/UPGRADE-5.5.md" target="_blank">UPGRADE-5.5.md</a> beschrieben.
+	</p>
+
+	<!-- Github Buttons -->
+	<div class="release-github-buttons">
+		<center>
+			<div class="release-github-buttons-inner">
+				<span><a href="http://community.shopware.com/Downloads_cat_448.html#5.5.10" target="_blank">Weitere Informationen</a></span>
+				<span><a href="https://github.com/shopware/shopware" target="_blank">Zum Github-Repository</a></span>
+				<span><a class="last" href="https://issues.shopware.com/?status=5&swversion=5.5.10#/" target="_blank">Umgesetzte&nbsp;Tickets</a></span>
+			</div>
+		</center>
+	</div>
+</div>";s:10:"release_id";s:3:"117";}s:2:"en";a:5:{s:2:"id";s:3:"225";s:9:"releaseId";N;s:8:"language";s:2:"en";s:9:"changelog";s:8807:"<style type="text/css">
+	.swag-update-changelog a { color: #089eff; }
+	.release-information {
+		position: relative;
+		margin:20px;
+		font-family:'Open Sans', Arial, sans-serif;
+		color: #5C6F7C;
+		font-size:14px;
+	}
+
+	.release-information p {
+		line-height: 20px;
+		margin-bottom:20px;
+	}
+
+	.release-information h1,
+	.release-information h2,
+	.release-information h3,
+	.release-information h4,
+	.release-information h5,
+	.release-information h6 {
+		font-size: 20px;
+		color: #0E384F;
+		font-weight: 600;
+		padding-bottom: 10px;
+		margin-top: 20px;
+		border-bottom: 1px solid #ccd6cd;
+	}
+
+	.release-information h2 {
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+	.release-information h3 {
+		border-bottom: none;
+		color: #089eff;
+		padding-bottom: 30px;
+	}
+
+	.release-information h4 {
+		font-size: 16px;
+		border: none;
+		margin: 0;
+		padding-bottom: 6px;
+	}
+
+	.release-information h2.hero-headline {
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 20px;
+		border-bottom: 0 none;
+		color: #142432;
+	}
+	.release-information h2.hero-headline:after {
+		display: block;
+		content: '';
+		width: 60px;
+		height: 4px;
+		margin: 0 auto;
+		text-align: center;
+		background: #189eff;
+		margin-top: 7px;
+	}
+
+	.release-information h3.sub-headline {
+		color: #142432;
+		font-weight: bold;
+	}
+
+	.release-information h3.sub-headline:after {
+		display: block;
+		content: '';
+		width: 40px;
+		height: 4px;
+		background: #189eff;
+		margin-top: 5px;
+	}
+
+	span.release-update-icon {
+		background: url('data:image/png;base64,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') no-repeat;
+		width: 52px;
+		height: 52px;
+		right: 20px;
+		top: 15px;
+		position: absolute;
+	}
+
+
+	.release-feature-more-info a{
+		color: #089EFF;
+		font-size: 16px;
+	}
+
+
+	.release-feature-entry p {
+		line-height: 20px;
+	}
+
+
+	/*** Github Buttons ***/
+	.release-github-buttons {
+		border-top: 1px solid #ccd6cd;
+		margin-bottom: 40px;
+		width: 100%;
+		float: left;
+	}
+
+	.release-github-buttons-inner {
+		padding-top: 30px;
+	}
+
+	.release-github-buttons a {
+		background: #189eff;
+		border-radius: 4px;
+		border: none;
+		font-weight: bold;
+		color: #fff;
+		text-decoration: none;
+		margin-right: 10px;
+		padding: 10px 25px;
+		text-align: center;
+		font-size: 14px;
+	}
+	.release-github-buttons span {
+		text-align: center;
+	}
+
+	.release-github-buttons a:hover {
+		background: rgb(0,186,241);
+	}
+
+	.release-github-buttons a.last {
+		margin-right: 0;
+	}
+
+	.alert {
+		padding: 10px 20px;
+		margin-bottom: 20px;
+		border: 2px solid rgba(0, 0, 0, 0);
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		line-height: 26px;
+	}
+
+	.alert-info {
+		background: rgba(225, 244, 252, 1);
+		color: rgba(0, 120, 185, 1);
+		border: 1px solid rgba(141, 215, 247, 1);
+		position: relative;
+		padding-right: 80px;
+	}
+
+	.alert-warning, .alert-error {
+		color: #825900;
+		border-color: rgba(255, 183, 28, 0.4);
+		background: rgba(255, 183, 28, 0.2);
+		position: relative;
+		padding-right: 80px;
+	}
+
+	ul li {
+		list-style: disc;
+		margin-left: 20px;
+		padding-bottom: 10px;
+	}
+
+</style>
+
+<!-- Title -->
+<div class="release-information">
+
+	<h2 class="hero-headline">Shopware Version 5.5.10 </h2>
+
+	<div class="alert alert-info">
+		<span class="release-update-icon"></span>
+		<p style="font-weight: 700;">Important update information</p>
+		<p>Please read the <a href="http://en.community.shopware.com/Downloads_cat_725.html" target="_blank">release notes</a> for all releases between your version and the version you want to update to.</p>
+		<p style="margin-bottom: 20px">This update package is cumulative and includes various bug fixes and new features.</p>
+	</div>
+
+	
+
+	<h3 class="sub-headline">Important changes</h3>
+	
+
+	<h3 class="sub-headline">Changelog</h3>
+	<div style="margin-top: -30px;">
+                    
+<p>
+    <br/><strong><a href="https://issues.shopware.com/issues/SW-24134" target="_blank">SW-24134</a> - </strong>Added support for 'int' and 'array' parameters in '\Shopware\Bundle\StoreFrontBundle\Gateway\DBAL\CategoryGateway::get'
+    <br/><strong><a href="https://issues.shopware.com/issues/SW-24135" target="_blank">SW-24135</a> - </strong>Adds support for environments that are limited using 'open_basedir'
+</p>
+                    
+                </div>
+
+	<h3 class="sub-headline">Developer information</h3>
+	<h4>Upgrade.md</h4>
+	<p style="margin-bottom: 20px">
+		All changes related code base of Shopware are documented in the <a href="https://github.com/shopware/shopware/blob/5.5/UPGRADE-5.5.md" target="_blank">UPGRADE-5.5.md</a>.
+	</p>
+
+	<!-- Github Buttons -->
+	<div class="release-github-buttons">
+		<center>
+			<div class="release-github-buttons-inner">
+				<span><a href="http://en.community.shopware.com/Downloads_cat_725.html#5.5.10" target="_blank">More information</a></span>
+				<span><a href="https://github.com/shopware/shopware" target="_blank">Github repository</a></span>
+				<span><a class="last" href="https://issues.shopware.com/?status=5&swversion=5.5.10#/" target="_blank">Resolved issues</a></span>
+			</div>
+		</center>
+	</div>
+</div>";s:10:"release_id";s:3:"117";}}s:3:"uri";s:107:"http://releases.s3.shopware.com.s3.amazonaws.com/update_5.5.10_1fefe5ce65759914f79a5f0c1b1a7ede9fab8043.zip";s:4:"size";s:8:"43108548";s:4:"sha1";s:40:"1fefe5ce65759914f79a5f0c1b1a7ede9fab8043";s:6:"checks";a:6:{i:0;a:3:{s:4:"type";s:10:"phpversion";s:5:"value";s:5:"5.6.4";s:5:"level";i:20;}i:1;a:3:{s:4:"type";s:12:"mysqlversion";s:5:"value";s:3:"5.5";s:5:"level";i:20;}i:2;a:3:{s:4:"type";s:12:"licensecheck";s:5:"value";a:1:{s:11:"licenseKeys";a:5:{i:0;s:21:"SwagEnterprisePremium";i:1;s:21:"SwagEnterpriseCluster";i:2;s:14:"SwagEnterprise";i:3;s:14:"SwagCommercial";i:4;s:8:"SwagCore";}}s:5:"level";i:20;}i:3;a:3:{s:4:"type";s:15:"emotiontemplate";s:5:"value";N;s:5:"level";i:20;}i:4;a:3:{s:4:"type";s:8:"writable";s:5:"value";a:2:{i:0;s:5:"files";i:1;s:9:"recovery/";}s:5:"level";i:20;}i:5;a:3:{s:4:"type";s:8:"writable";s:5:"value";a:1:{i:0;s:1:"/";}s:5:"level";i:10;}}s:12:"release_date";N;s:18:"signagure_verified";b:1;}
